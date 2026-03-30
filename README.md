@@ -4,7 +4,7 @@ A real-time infrastructure monitoring dashboard with an AI assistant. Built to d
 
 <video src="frontend/public/readme-vid.webm" autoplay loop muted playsinline width="100%"></video>
 
-![Dashboard preview](frontend/public/dashboard.png)
+![Dashboard preview](https://github.com/user-attachments/assets/e234a9d3-6dab-4284-a776-e55a748218b0)
 
 ---
 
