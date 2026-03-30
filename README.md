@@ -2,7 +2,7 @@
 
 A real-time infrastructure monitoring dashboard with an AI assistant. Built to demonstrate full-stack observability tooling across FastAPI, React, WebSockets, PostgreSQL, and LangChain.
 
-![Dashboard preview](https://placehold.co/1200x600/111827/3b82f6?text=DevPulse+Dashboard)
+![Dashboard preview](frontend/public/dashboard.png)
 
 ---
 
