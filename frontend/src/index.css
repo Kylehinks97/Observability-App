@@ -2,6 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --bg:        #07080a;
+  --surface:   #0d0f12;
+  --surface-2: #111519;
+  --border:    #181d24;
+  --text:      #b8c4d0;
+  --muted:     #3d4a58;
+  --accent:    #00e5b3;
+  --red:       #ff5252;
+  --amber:     #ffab30;
+  --purple:    #9f88ff;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
-  @apply bg-gray-950 text-gray-100;
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--text);
+  -webkit-box-shadow: 0 0 0px 1000px var(--surface-2) inset;
+  caret-color: var(--text);
+  transition: background-color 5000s ease-in-out;
+}
+
+::-webkit-scrollbar       { width: 3px; }
+::-webkit-scrollbar-track  { background: var(--bg); }
+::-webkit-scrollbar-thumb  { background: var(--border); }
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.25; }
+}
+
+.live-dot {
+  animation: pulse-dot 2s ease-in-out infinite;
 }
