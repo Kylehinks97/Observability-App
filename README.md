@@ -2,6 +2,8 @@
 
 A real-time infrastructure monitoring dashboard with an AI assistant. Built to demonstrate full-stack observability tooling across FastAPI, React, WebSockets, PostgreSQL, and LangChain.
 
+<video src="frontend/public/readme-vid.webm" autoplay loop muted playsinline width="100%"></video>
+
 ![Dashboard preview](frontend/public/dashboard.png)
 
 ---
